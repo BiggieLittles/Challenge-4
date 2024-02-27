@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Armoni's Quiz</title>
+
 </head>
 <body>
-
-   <div class="quiz-container">
-    <div id="question-container">
-        <h3 id="question">Question</h3>
-        <div id="answer-buttons"></div>
-
-    </div>
-   </div>
-        
-   <button id="next-btn" class="btn hide">Next</button>
-   <div id="result" class="hide"></div>
-   <button id="restart-btn" class="btn hide">Restart</button>
-
-
-    </script>
-        
-
-
-
-   
-    
+<h1 style="border: 8px solid skyblue;">Armoni's Quiz</h1>
+<div id="quiz-container">
+  <div id="question"></div>
+  <div id="options"></div>
+  <button id="submit-btn">Submit</button>
+</div>
+<!-- makes it so it doesnt show the whole quiz -->
+<div id="result" style="display: flex;"></div>
+<div id="name-input" style="display: none;">
+  <label for="name">Enter Your Name:</label>
+  <input type="text" id="name" required>
+  <button id="submit-name-btn">Submit</button>
+</div>
+<!-- links to java -->
+<script src="index.js">
+  
+</script>
 </body>
 </html>

@@ -1,57 +1,44 @@
+/* Customization of the quiz boxes */
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: aliceblue;
-}
-
-.quiz-container {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 0.6rem 0.1 rgba(0, 0, 0, 0.1);
-}
-
-#question-container {
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem;
-}
-
-#question {
+    font-family: cursive;
+    display: flexbox;
     text-align: center;
-    margin-bottom: 0;
-    margin-top: 1rem;
-}
+    background-color: lightcyan;
+    text-shadow: 40px black; 
+    justify-content: center;
+    font-weight: bolder;
+    color: navajowhite;
 
-#answer-buttons {
+    
+
+  }
+  .option {
+    border: 10px solid skyblue;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center; 
+  }
+   .option:hover {
+    background-color: magenta;
+  }
+  .selected {
+    background-color: magenta;
+
+  }
+
+  .questions {
+    justify-content: center;
+  }
+
+h1 {
+    font-family: cursive;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.25rem;
-    margin-bottom: 1rem;
-}
+    color: navajowhite;
+    border: bold 4px black;
+    padding-inline: 220px;
+    text-align: center;
 
-.input-group {
-    display:flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-input {
-    width: fit-content;
-}
-
-.btn {
-    padding: 1.5rem;
-    background-color: burlywood;
-    color: whitesmoke;
-    border: none;
-    border-radius: 0 0 0.5rem 0.4;
 }
