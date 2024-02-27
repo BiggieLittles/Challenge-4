@@ -1,26 +1,32 @@
 /* Customization of the quiz boxes */
-
+/* Added a background image */
 body {
     font-family: cursive;
     display: flexbox;
     text-align: center;
-    background-color: lightcyan;
     text-shadow: 40px black; 
     justify-content: center;
     font-weight: bolder;
     color: navajowhite;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1480&t=st=1709028686~exp=1709029286~hmac=5a7d90981e4b0b6f38360f58b4afc541d66e76dea7c83e8031e0d58947105e53');
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
 
     
 
   }
   .option {
-    border: 10px solid skyblue;
+    border: 4px solid skyblue;
     padding: 10px;
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     justify-content: center; 
+    border-radius: 30px;
   }
+  /* highlights answers */
    .option:hover {
     background-color: magenta;
   }
@@ -37,8 +43,8 @@ h1 {
     font-family: cursive;
     display: flex;
     color: navajowhite;
-    border: bold 4px black;
-    padding-inline: 220px;
-    text-align: center;
+    border-radius: 30px;
+    
+
 
 }

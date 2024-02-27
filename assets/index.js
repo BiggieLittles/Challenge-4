@@ -1,3 +1,4 @@
+// questions
 let quizData = [
     {
       question: "Who is Lebron?",
@@ -83,7 +84,7 @@ let quizData = [
         showResult();
         
       }
-    }, 1000);
+    }, 500);
   }
 //   trying to get timer to show on screen
 
